@@ -1,10 +1,10 @@
 # Multithreaded Tic-Tac-Toe
-A Tic-Tac-Toe game implemented in Java that features an AI opponent with threading to simulate responsive gameplay. 
+A Tic-Tac-Toe game implemented in Java that features an AI opponent powered by multithreading for a seamless and interactive player experience.
 
 ## Features
-    - Multithreaded gameplay: 
-    - AI opponent: Selects a random and legal move by using java.random
-    - Input validation: Verifies that the user input is a number that is within range of the game board and has not already been played.
+    - Concurrent Gameplay: Runs the human and AI players on separate threads, ensuring smooth and responsive gameplay. 
+    - AI opponent: Employs the java.util.Random class to select valid and available moves on the board. 
+    - Input Validation: Verifies that the user input is a number that is within range of the game board and has not already been played.
     
 ## Setup and Installation
     1. Clone the repository
