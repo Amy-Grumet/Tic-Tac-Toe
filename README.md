@@ -8,9 +8,12 @@ A Tic-Tac-Toe game implemented in Java that features an AI opponent with threadi
     
 ## Setup and Installation
     1. Clone the repository
+            git clone https://github.com/Amy-Grumet/MultithreadedTic-Tac-Toe.git
+            cd MultithreadedTic-Tac-Toe
     2. Compile the files
-            java *
+            javac *.java
     3. Run the game
+            java Game
     
 ## How to Play
     1. The game is designed for a single human opponent to play against an AI model.
@@ -23,7 +26,7 @@ A Tic-Tac-Toe game implemented in Java that features an AI opponent with threadi
     ├── AI.java         # Contains logic for the AI opponent and runs on a separate thread to simulate decision-making
     ├── Board.java      # Manages the Tic-Tac-Toe board - handles move validation and board state
     ├── Game.java       # Main class 
-    └── Player.java     # Controls user input and moves
+    └── Player.java     # Manages human player interactions
 
 
 ## Potential Improvements
