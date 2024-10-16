@@ -1,1 +1,1 @@
-# MultithreadedTic-Tac-Toe
+# Multithreaded Tic-Tac-Toe
