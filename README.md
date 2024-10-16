@@ -4,7 +4,7 @@ A Tic-Tac-Toe game implemented in Java that features an AI opponent with threadi
 ## Features
     - Multithreaded gameplay: 
     - AI opponent: Selects a random and legal move by using java.random
-    - Input validation: Verifies that the user input is within range of the game board, a number, and has not already been played. 
+    - Input validation: Verifies that the user input is a number that is within range of the game board and has not already been played.
     
 ## Setup and Installation
     1. Clone the repository
@@ -30,8 +30,8 @@ A Tic-Tac-Toe game implemented in Java that features an AI opponent with threadi
 
 
 ## Potential Improvements
-    1. Advanced AI Opponent: Utilize a minimax algorithm to increase difficulty
+    1. Advanced AI Opponent: Utilize a minimax algorithm to create a smarter and more challenging opponent.
     2. Score Tracking: Maintain a leaderboard to keep track of results across multiple games.
-    3. Two Player Mode: Integrate a human vs. human mode 
+    3. Two Player Mode: Integrate a human vs. human mode. 
 
 
