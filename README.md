@@ -19,11 +19,11 @@ A Tic-Tac-Toe game implemented in Java that features an AI opponent with threadi
     4. The game continues until a win or draw is detected. 
 
 ## Project Structure 
-.
-├── AI.java         # AI moves are 
-├── Board.java      # Manages the Tic-Tac-Toe board - 
-├── Game.java       # Main class where the game loop
-└── Player.java     # Controls user input and moves
+    .
+    ├── AI.java         # AI moves are 
+    ├── Board.java      # Manages the Tic-Tac-Toe board - 
+    ├── Game.java       # Main class where the game loop
+    └── Player.java     # Controls user input and moves
 
 
 ## Potential Improvements
