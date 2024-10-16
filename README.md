@@ -20,9 +20,9 @@ A Tic-Tac-Toe game implemented in Java that features an AI opponent with threadi
 
 ## Project Structure 
     .
-    ├── AI.java         # AI moves are 
+    ├── AI.java         # Contains logic for the AI opponent and runs on a separate thread to simulate decision-making
     ├── Board.java      # Manages the Tic-Tac-Toe board - 
-    ├── Game.java       # Main class where the game loop
+    ├── Game.java       # Main class 
     └── Player.java     # Controls user input and moves
 
 
