@@ -3,12 +3,13 @@ A Tic-Tac-Toe game implemented in Java that features an AI opponent with threadi
 
 ## Features
     - Multithreaded gameplay: 
-    - AI opponent: Selects a random and legal move 
-    - Input validation:
+    - AI opponent: Selects a random and legal move by using java.random
+    - Input validation: Verifies that the user input is within range of the game board, a number, and has not already been played. 
     
 ## Setup and Installation
     1. Clone the repository
     2. Compile the files
+            java *
     3. Run the game
     
 ## How to Play
@@ -16,6 +17,14 @@ A Tic-Tac-Toe game implemented in Java that features an AI opponent with threadi
     2. You will first be prompted to enter the row you would like to place your marker. Then, you will be prompted to enter the column. 
     3. The AI challenger will then make a move. 
     4. The game continues until a win or draw is detected. 
+
+## Project Structure 
+.
+├── AI.java         # AI moves are 
+├── Board.java      # Manages the Tic-Tac-Toe board - 
+├── Game.java       # Main class where the game loop
+└── Player.java     # Controls user input and moves
+
 
 ## Potential Improvements
     1. Advanced AI Opponent: Utilize a minimax algorithm to increase difficulty
